@@ -1,4 +1,4 @@
-### taller de git
+# Taller de git
 Este es una ambiente de pruebas de git
 sobre un ambiente linux.
 Este ambiente **no va a explotar**, 
