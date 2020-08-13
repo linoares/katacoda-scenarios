@@ -1,4 +1,4 @@
-### Primeros pasos
+### Primeros pasos - un primer repositorio
 
 Antes de comenzar a trabajar, establezcamos el ambiente
 `touch .bash_history;source .bashrc`{{execute}}
