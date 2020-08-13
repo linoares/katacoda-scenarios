@@ -1,21 +1,28 @@
 ### Primeros pasos
 
 Antes de comenzar a trabajar, establezcamos el ambiente
-`touch .bash_history;source .bashrc` {{execute}}
+`touch .bash_history;source .bashrc`{{execute}}
 
 Revisemos la versión de Git
-`git --version` {{execute}}
+`git --version`{{execute}}
 
 Los pasos a continuación son
 - Crear un repo en github
 - Clonar el repo
+`git clone *url_github*`
 - Crear archivos de un proyecto y "agregarlos" a nuestro repo
+`git add .`{{execute}}
 - Modificar los archivos y regitrar los cambios (hacer un commit)
+`git commit -m "se inicializa proyecto y se cargan archivos"`{{execute}}
 - Guardar los cambios en nuestro repossitorio remoto 
+`git push origin master`{{execute}}
+
   <pre class="file">
-{
-    "course_id": "uilayout-terminal",
-    "title": "Scenario with Terminal UI",
-    "description": "Katacoda Scenario Example"
-},
+#### Los Comandos aprendidos hasta ahora
+git --version
+git clone <url>
+git add .
+git commit -m "mensaje"
+git push origin master
+git log
 </pre>
